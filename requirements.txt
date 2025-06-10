@@ -1,0 +1,12 @@
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-google-genai==2.0.11
+langchain-huggingface==0.1.2
+google-generativeai==0.8.4
+pytesseract==0.3.13
+pdfplumber==0.11.5
+camelot-py==1.0.0
+pillow==11.1.0
+faiss-cpu==1.10.0
+sentence-transformers==3.4.1
+python-dotenv==1.0.1
