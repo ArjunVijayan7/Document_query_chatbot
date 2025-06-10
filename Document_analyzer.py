@@ -23,9 +23,6 @@ from langchain_google_genai import GoogleGenerativeAI
 import google.generativeai as genai
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
-# ✅ Set up API Key for Google Gemini
-# os.environ["GOOGLE_API_KEY"] = "AIzaSyC6VR61YudvL-nfP0cNAknKzOFFcufl7Bs"  # Replace with your API key
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/msmarco-distilbert-base-v4")
 
